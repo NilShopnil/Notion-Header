@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+.container{
+    max-width: 1420px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    &__content{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left-content{
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+    }
+    &__logo:hover{
+        cursor: pointer;
+    }
+    &__logo-image{
+        height: 48px;
+        width: 48px;
+    }
+    &__logo-name{
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        line-height: 31px;
+        height: 30px;
+    }
+    &__menu-option{
+        text-decoration: none;
+        color: black;
+        line-height: 31px;
+        font-weight: 500;
+        padding: 0 10px;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+    &__menu-option:hover{
+        background-color: #F7F6F4;
+        cursor: pointer;
+    }
+    &__menu-icon{
+        width: 15px;
+        height: 15px;
+    }
+    &__right-content{
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__button{
+        background-color:#e16259;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 0.5rem 0.9rem;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    &__button:hover{
+        background-color: #DA625A;
+        cursor: pointer;
+    }
+}
