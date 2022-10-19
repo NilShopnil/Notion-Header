@@ -58,23 +58,29 @@ body{
         align-items: center;
         line-height: 31px;
         height: 30px;
+        gap:20px;
     }
     &__menu-option{
         text-decoration: none;
         color: black;
         line-height: 31px;
-        font-weight: 500;
         padding: 0 10px;
         border-radius: 4px;
-        font-size: 15px;
+        font-size: 16px;
+        position: relative;
+        font-family: 'Anek Telugu', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
     }
     &__menu-option:hover{
         background-color: #F7F6F4;
         cursor: pointer;
     }
     &__menu-icon{
-        width: 15px;
-        height: 15px;
+        position: absolute;
+        bottom: 10px;
+        width: 14px;
+        height: 14px;
     }
     &__right-content{
         height: 100%;
