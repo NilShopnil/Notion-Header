@@ -52,13 +52,14 @@ body{
         text-decoration: none;
         color: black;
         font-weight: bold;
+        letter-spacing: -0.4px;
     }
     &__menu{
+        margin-top: 7px;
         display: flex;
         align-items: center;
-        line-height: 31px;
-        height: 30px;
         gap:20px;
+        margin-left: 5px;
     }
     &__menu-option{
         text-decoration: none;
