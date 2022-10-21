@@ -60,7 +60,7 @@ body {
   margin-top: 7px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
   margin-left: 5px;
 }
 .header__menu-option {
@@ -84,13 +84,14 @@ body {
   bottom: 10px;
   width: 14px;
   height: 14px;
+  margin-left: 3px;
 }
 .header__right-content {
   height: 100%;
   width: auto;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 3px;
 }
 .header__button {
   background-color: #e16259;
@@ -104,4 +105,12 @@ body {
 .header__button:hover {
   background-color: #DA625A;
   cursor: pointer;
+}
+
+hr {
+  transform: rotate(90deg);
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  width: 20px;
+  border-style: none;
 }/*# sourceMappingURL=style.css.map */
